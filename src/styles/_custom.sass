@@ -7,8 +7,13 @@
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 56%
+    right: 73%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 71%
 
 @keyframes float1
   0%
@@ -16,11 +21,9 @@
   100%
     transform: translateY(0px)
   
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
-
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -30,3 +33,205 @@
 
 figcaption
   font-weight: normal
+
+.banner-principal__row .banner-principal__img
+  width: 400px !important
+ 
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #BCCDB2
+  &-2
+    background-color: #FFC94A
+  &-3
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 245, 204, 1) 40%, rgba(255, 245, 204, 1) 60%, rgba(255, 255, 255, 1) 100%);
+  &-4
+    background-color: #FFE9B5
+  &-5
+    background-color: #ffffffb3
+  &-6
+    background-color: #D9E8F9
+  &-7
+    background-color: #3E5B2C
+  &-8
+    color: #5A8441 !important
+  &-9
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(245, 251, 238, 1) 30%, rgba(255, 245, 204, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-10
+    background-color: #F9ECA8
+  &-11
+    background-color: #FFE9B5
+    &:hover
+      background-color: #D9E8F9
+  &-12
+    background-color: #4F6278
+  &-13
+    background-color: #E5E2D3
+  &-14
+    background-color: #6F89A8
+  &-15
+    background-color: #FFF4DA
+  &-16
+    background-color: #DDE6D8
+  &-17
+    background-color: #EDF2EA
+  &-18
+    color: #31532B !important
+  &-19
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(245, 251, 238, 1) 30%, rgba(255, 245, 204, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-20
+    background-color: #EDF2EA
+    border: 3px solid #5A8441
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
+
+///////Full Width Background///////////////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+///////////////fondos/////////////////
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: bottom
+  &-2
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: top
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #B4BEAE
+  border: #B4BEAE
+.slyder-a__bullets__item--active
+  background-color: #2C411F
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FF9800
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #EBF3FC
+.tabs-b__tab
+  background-color: #D9E8F9
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FF9800 !important
+  color: $color-sistema-texto
+.acordion__activo
+  background-color: #FFE9B5!important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+////////SOMBRA CAJON//////////
+.shadow-app
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FFC94A
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 10px
+  width: 50px
+  bottom: 0
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FF9800
+  color: $color-sistema-texto !important
+  &::selection
+    color: $color-sistema-texto !important
+.tabs-a__tab
+  background-color: #D9E8F9
+.tarjeta.color-acento-botones--borde
+  background-color: #D9E8F9
+  border: solid 4px #D9E8F9
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #EBF3FC
+
+//////////CUSTOM TARJETA AVATAR TOP////////////
+.tarjeta-avatar
+  padding-top: 50px
+.tarjeta-avatar .tarjeta
+  padding-top: 20px !important
