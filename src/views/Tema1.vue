@@ -59,7 +59,7 @@
               img(src="@/assets/curso/tema1/4.png", data-aos="zoom-in")
           .col-lg-7.order-lg-1
             .row.align-items-center.mb-3
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/5.png", style="max-width: 190px").mx-auto
               .col-lg
                 p.mb-0  Desde la agroecología, el acompañamiento rural se redefine como un proceso horizontal, dialógico y situado, que reconoce a las familias como querientes del agroecosistema, es decir, como sujetos activos del conocimiento y de la transformación. No se trata de aplicar recetas, sino de construir caminos propios, integrando saberes locales, científicos, normativos y ancestrales.
@@ -73,7 +73,7 @@
           .col-lg-8
             .bg-color-20.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 Este enfoque participativo promueve la lectura integral del agroecosistema, el fortalecimiento de capacidades locales y la validación territorial de las propuestas. Se utilizan herramientas como cartografías sociales, recorridos interpretativos, talleres vivenciales y ejercicios de sistematización, que permiten comprender el territorio desde adentro y proyectar acciones con sentido colectivo.

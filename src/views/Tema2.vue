@@ -15,7 +15,7 @@
               img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
           .col-lg-7.order-lg-1
             .row.align-items-center.mb-3
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/2.svg", style="max-width: 190px").mx-auto
               .col-lg
                 p.mb-0  La formulación del plan de acción agroecológico requiere integrar diversos insumos que permiten pasar del análisis integral del agroecosistema al diseño predial con sentido transformador. Estos elementos incluyen el diagnóstico participativo con los 21 indicadores IPPTA, la valoración del estado de transición agroecológica mediante el diagrama radial, la identificación de puntos críticos, los mapas actuales y futuros del sistema predial, así como los criterios de priorización construidos con la familia.
@@ -152,7 +152,7 @@
     
         .bg-color-1.tarjeta.p-4(data-aos="fade-left")
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/12.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Esta priorización no se basa únicamente en la urgencia técnica, sino en un conjunto de criterios que permiten orientar la planificación con coherencia agroecológica, viabilidad territorial y sentido pedagógico. Priorizar no es descartar lo demás: es reconocer qué acciones tienen mayor capacidad de transformación, aprendizaje y sostenibilidad, en el contexto específico de cada finca y familia.
@@ -318,7 +318,7 @@
         .bg-color-13.tarjeta.p-4(data-aos="fade-left")
           div.bg-color-white.p-4.tarjeta
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/21.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 La secuenciación y el presupuesto no son trámites administrativos: son herramientas pedagógicas que ayudan a distribuir esfuerzos, evitar sobrecargas, anticipar necesidades y fortalecer la corresponsabilidad entre actores.
