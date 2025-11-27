@@ -93,6 +93,12 @@ figcaption
   &-20
     background-color: #EDF2EA
     border: 3px solid #5A8441
+  &-21
+    background-color: #54E000
+  &-22
+    background-color: #FFC505
+  &-23
+    background-color: #FF2E2E
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -235,3 +241,33 @@ figcaption
   padding-top: 50px
 .tarjeta-avatar .tarjeta
   padding-top: 20px !important
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #A1C6F1 !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D9E8F9
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #E5E2D3
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E5E2D3
+
+.tab
+  ///////////////TABLAS/////////////////// 
+  table td
+    text-align: center!important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
